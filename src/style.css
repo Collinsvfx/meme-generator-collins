@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins";
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 550px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to right, #672280, #a626d3);
+  color: white;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.logo-container > img {
+  width: 31.31px;
+  height: 26.22px;
+}
+
+.logo-container > span {
+  margin-left: 6.69px;
+  font-size: 20.75px;
+  font-weight: bold;
+}
