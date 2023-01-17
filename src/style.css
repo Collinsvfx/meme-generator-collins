@@ -39,3 +39,44 @@ body {
   font-size: 20.75px;
   font-weight: bold;
 }
+
+.two-inputs {
+  margin-top: 36px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.two-inputs > input {
+  width: 230px;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 11px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Poppins";
+  font-size: 12px;
+  border: 1px solid #d5d4d8;
+}
+
+.first-input {
+  margin-right: 17px;
+}
+
+.the-btn {
+  display: flex;
+  justify-content: center;
+  max-width: 477px;
+  margin: 0 auto;
+}
+
+.the-btn > button {
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family: "Poppins";
+}
