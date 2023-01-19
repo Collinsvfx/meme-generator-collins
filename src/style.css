@@ -79,4 +79,10 @@ body {
   color: white;
   font-size: 16px;
   font-family: "Poppins";
+  cursor: pointer;
+}
+
+.meme-image {
+  margin-top: 25px;
+  max-width: 100%;
 }
